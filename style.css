@@ -1,0 +1,1228 @@
+#sec{
+    width: 100%;
+    height: 80px;
+    background-color:burlywood;
+}
+#nav{
+    width: 1140px;
+    height: 80px;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav img{
+    width: 80px;
+    height: 50px;
+    margin: 0;
+    color: #fff;
+}
+#nav img:hover{
+    background-color: aqua;
+    border-radius: 50px;
+    text-decoration: none;
+
+
+}
+#nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+#nav a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    padding:5px 10px ;
+    row-gap: 5px;
+}
+#nav a:hover{
+    background-color: aqua;
+    border-radius: 50px;
+    text-decoration: none;
+}
+#sec1{
+     width: 100%;
+     height: 700px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(pexelsphoto213621.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+
+}
+img{
+    margin-left: 500px;
+    margin-top: 200px;
+}
+h1{
+    margin-left: 535px;
+    color: white;
+    font-family: initial;
+    animation: h1;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+@keyframes h1{
+    from{
+        transform: translate(-300px) rotate(360deg);
+    }
+    
+
+
+}
+p{
+    color: white;
+    font-family: Merriweather, serif !important;
+    margin-left: 545px;
+}
+#doc{
+    color: bisque;
+    /* text-align: center; */
+    margin-left: 520px;
+}
+#sec2{
+    height: 750px;
+    background-color: #dfcbab;
+
+}
+#our h2{
+    color: black;
+    text-align: center;
+    margin: 70px;
+}
+#our p{
+    text-align: center;
+    color: black;
+    margin-left: 50px;
+    margin: -50px;
+   
+}
+
+
+#our #doc{
+    margin-top: 50px;
+}
+#cake{
+    margin: 80px;
+    width: 300px;
+    background-image: url(pexelsphoto291528.jpg);
+    background-position: 50% 50%;
+    min-height: 450px;
+    object-fit: cover;
+    background-size: cover;
+    animation: cake;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+@keyframes cake{
+    from{
+        transform: translateX(-300px);
+    }
+}
+
+#text #te{
+    width: 400px;
+    min-height: 150px;
+    /* border: 0.5px solid black; */
+      font-size: 16px;
+      margin: 80px;
+      color: black;
+      text-align: left;
+
+}
+#text .im{
+    margin: 130px;
+    width: 450px;
+    background-image: url(pexelsphoto839220.jpg);
+    background-position: 50% 50%;
+    min-height: 200px;
+    object-fit: cover;
+    background-size: cover;
+    margin: -15px;
+    margin-left: 80px;
+    animation: im;
+    animation-delay: 3s;
+    animation-duration: 5s;
+   
+
+}
+@keyframes im{
+    from{
+        transform: translateY(-300px);
+
+    }
+}
+
+#sec3{
+    background-color: white;
+
+}
+#cho{
+    background-image: url(pexelsphoto982612.jpg);
+    min-height: 400px;
+    /* width: 600px; */
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    animation: cho ;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+@keyframes cho{
+    from{
+        transform: translateY(-300px);
+
+    }
+}
+#wh #today{
+    min-height: 200px;
+    /* border: 0.5px solid black; */
+}
+#today h3{
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    margin: 10px;
+
+}
+#today h4{
+    font-size:48px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    padding-top: 120px;
+}
+#today h5{
+    font-size: 15px;
+    margin: 20px;
+    color: black;
+    text-align: center;
+    /* padding-top: 100px; */
+
+
+
+}
+#today h6{
+    margin-left: 180px;
+    color: black;
+}
+#today button{
+    background-color:#d4b98e;
+    margin: 43px 20px 70px 210px;
+}
+#today button:hover{
+    color: black;
+    background-color: #bf6043;
+}
+
+#egg{
+    background-image: url(pexelsphoto566566.jpg);
+    height: 400px;
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    overflow: visible;
+    display: block;
+    animation: egg;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+@keyframes egg{
+    from{
+        transform: translateY(-300px);
+    }
+
+}
+
+
+
+
+#sec4{
+    background-image: url(pexelsphoto324028.jpg);
+    height: 550px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 100% 50%;
+    overflow: visible;
+     /* text-align: center; */
+    animation: sec4;
+    animation-delay: 5s;
+    animation-duration: 5s; 
+
+}
+@keyframes sec4{
+    from{
+        transform:scale(0.2)
+
+
+    }
+    to{
+
+    }
+
+}
+
+#shop{
+    padding-left: 120px;
+    padding-top: 250px;
+}
+#shop h2{
+    color: white;
+}
+#shop h6{
+    color:white;
+}
+#shop button{
+    background-color: #d4b98e;
+    color: black;
+    min-width: 60px;
+    min-height: 30px;
+    
+}
+#shop button:hover{
+    background-color: #bf6043;
+}
+#sec5{
+    background-color: #d4b98e;
+    height: 500px;
+    margin-top: 30px;
+
+}
+#class{margin: 20px;
+
+}
+#pin{
+    margin: 20px;
+}
+#class h6{
+    width: 460px;
+    height: 150px;
+    /* border: 0.5px solid black; */
+    text-align: justify;
+    font-size: 16px;
+    margin-left:-120px ;
+    font-size: 15px;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+#pin #doc{
+    color: black;
+    margin-left: 20px;
+    margin-top: -60px;
+}
+
+#pin h6{
+    width: 460px;
+    height: 150px;
+    /* border: 0.5px solid black; */
+    text-align: justify;
+    font-size: 16px;
+    margin-left: 22px;
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+
+
+
+
+#class .cl{
+    background-image: url(pexelsphoto907142.jpeg);
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 50% 50%;
+}
+#pin .pi{
+    background-image: url(pexelsphoto1028711.jpeg);
+    height: 200px;
+    width: 500px;
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+#sec6{
+    background-color: white;
+    height: 700px;
+}
+#last .ban{
+    background-image: url(chocolatedessertbrowniescake.jpg);
+    height: 500px;
+    width: 400px;
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    /* display: flex; */
+    animation: ban;
+    animation-duration: 5s;
+    animation-delay: 10s;
+        
+}
+@keyframes ban{
+
+    from{
+        transform: translateY(300px);
+
+    }
+}
+
+
+
+
+#pex .px{
+    background-image: url(pexelsphoto973238.jpg);
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    background-position: 100% 50%;
+    object-fit: cover;
+    animation: px;
+    animation-duration: 5s;
+    animation-delay: 10s;
+}
+@keyframes px{
+    from{
+        transform: translateY(300px);
+
+    }
+}
+#test .tex{
+    /* background-image: url(pexelsphoto973238.jpg); */
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 100px;
+}
+.tex h2{
+    color: black;
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    
+}
+.tex h5{
+    color:#999999;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+}
+.tex h6{
+    color:#474045;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+}
+.tex button{
+    background-color: #d4b98e;
+    color: #474040;
+}
+.tex button:hover{
+    background-color: #bf6043;
+}
+.tex h4{
+    color: #bf6043;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 300px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+    /* margin-top: 50px; */
+}
+#footer{
+    background-color: black;
+    width: 1521px;
+    height: 200px;
+    margin-left: -180px;
+    display: flex;
+    align-items: center;
+    margin-top: -150px;
+}
+
+@media only screen  and (max-width:768px){
+    #sec{
+        width: 100%;
+        height: 80px;
+        background-color:whitesmoke;
+    }
+    #nav{
+        width: 400px;
+        height: 80px;
+        border: 1px solid white;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #nav img{
+        width: 80px;
+        height: 50px;
+        margin: 0;
+        color: #fff;
+    }
+    #nav img:hover{
+        background-color: aqua;
+        border-radius: 50px;
+        text-decoration: none;
+    
+    
+    }
+    #nav ul{
+        list-style: none;
+        display: flex;
+    }
+    #nav a{
+        color: #000;
+        font-size: 18px;
+        font-weight: 700;
+        padding:5px 10px ;
+        row-gap: 5px;
+    }
+    #nav a:hover{
+        background-color: aqua;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    #sec1{
+        width: 100%;
+        height: 708px;
+       background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(pexelsphoto213621.png);
+       background-position: 50% 50%;
+       background-repeat: no-repeat;
+       object-fit: cover;
+       background-size: cover;
+   
+   }
+   img{
+    width: 65px;
+    height: 89px;
+    margin-left: 200px;
+    
+   }
+   h1{
+    margin-left: 190px;
+    color: white;
+    font-family: initial;
+}
+p{
+    color: white;
+    font-family: Merriweather, serif !important;
+    margin-left: 205px;
+}
+#doc{
+    color: bisque;
+    /* text-align: center; */
+    margin-left: 170px;
+}
+#sec2{
+    height: 1500px;
+    background-color: #dfcbab;
+
+}
+#our h2{
+    width: 328px;
+    height: 198px;
+    color: black;
+    text-align: center;
+    margin: 70px;
+}
+#our p{
+    font-size: 16px;
+    color: black;
+    width: 328px;
+    height: 102px;
+    margin-left: 65px;
+    margin-top: -120px;
+}
+#our #doc{
+    margin-top: 50px;
+}
+#cake{
+    width: 340px;
+    /* height: 500px; */
+    background-image: url(pexelsphoto291528.jpg);
+    background-position: 50% 50%;
+    height: 450px;
+    object-fit: cover;
+    background-size: cover;
+    margin-top: -10px;
+}
+
+#text #te{
+    width: 289px;
+    height: 250px;
+    margin-top: -60px;
+    font-size: 16px;
+
+
+}
+#text .im{
+    width: 350px;
+    background-image: url(pexelsphoto839220.jpg);
+    background-position: 50% 50%;
+    height: 330px;
+    object-fit: cover;
+    background-size: cover;
+    margin-left: 60px;
+  
+}
+#sec3{
+    background-color: white;
+
+}
+#cho{
+    background-image: url(pexelsphoto982612.jpg);
+    width: 483px;
+    height: 500px;
+    margin-left: -15px;
+    /* width: 600px; */
+    /* background-position:  50%; */
+    background-size: cover;
+    object-fit: cover;
+}
+#wh #today{
+    width: 427px;
+    height: 467px;
+    font-size: 12px;
+    /* border: 0.5px solid black; */
+}
+#today h3{
+    font-size: 16px;
+    color: black;
+    justify-content: center;
+    margin-left: 70px;
+
+}
+#today h4{
+    font-size:30px;
+    text-align: center;
+    color: black;
+    padding-top: 100px;
+    margin-left: 70px;
+}
+#today h5{
+    font-size: 15px;
+    margin-left: 80px;
+    opacity: 50%;
+    color: black;
+    text-align: center;
+    /* padding-top: 100px; */
+
+
+
+}
+#today h6{
+    margin-left: 180px;
+    color: black;
+}
+#today button{
+    background-color:#d4b98e;
+    margin: 43px 20px 70px 210px;
+}
+#today button:hover{
+    color: black;
+    background-color: #bf6043;
+}
+
+#egg{
+    background-image: url(pexelsphoto566566.jpg);
+    width: 483px;
+    height: 500px;
+    margin-left: -20px;
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    overflow: visible;
+    display: block;
+}
+#sec4{
+    background-image: url(pexelsphoto324028.jpg);
+    width: 483px;
+    height: 500px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 40% 50%;
+    overflow: visible;
+    margin-top: 20px;
+     /* text-align: center; */
+
+
+}
+
+
+#shop h2{
+    color: white;
+    font-size: 48px;
+    width: 328px;
+    height: 105px;
+    margin-top: -150px;
+    margin-left: -50px;
+}
+#shop h6{
+    color:white;
+    width: 328px;
+    /* height: 281.600px; */
+    font-size: 16px;
+    line-height: 1.4;
+    margin-left: -50px;
+    
+
+}
+#shop button{
+    background-color: #d4b98e;
+    color: black;
+    min-width: 60px;
+    min-height: 30px;
+    margin-left: -50px;
+
+    
+}
+#shop button:hover{
+    background-color: #bf6043;
+}
+#sec5{
+    background-color: #d4b98e;
+    height: 1100px;
+    margin-top: 30px;
+
+}
+#class{
+    margin: 20px;
+
+}
+#pin{
+    margin: 20px;
+}
+#class h6{
+    width: 320px;
+    height: 170px;
+    font-size: 16px;
+    margin-left: -50px;
+
+}
+#pin #doc{
+    color: black;
+    margin-left: -150px;
+    margin-top: -60px;
+}
+
+#pin h6{
+    width: 328px;
+    height: 202px;
+    margin-left: -210px;
+    margin-top: 550px;
+    font-size: 16px;
+
+}
+#class .cl{
+    background-image: url(pexelsphoto907142.jpeg);
+    height: 380px;
+    width: 290px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 50% 50%;
+    margin-left: -30px;
+}
+#pin .pi{
+    background-image: url(pexelsphoto1028711.jpeg);
+    height: 290px;
+    width: 280px;
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: -200px;
+    
+}
+#sec6{
+    background-color: white;
+    height: 1500px;
+}
+#last .ban{
+    background-image: url(chocolatedessertbrowniescake.jpg);
+    width: 480px;
+    height: 500px;
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: -30px;
+    /* display: flex; */
+        
+}
+#pex .px{
+    background-image: url(pexelsphoto973238.jpg);
+    width: 480px;
+    height: 500px;
+    background-size: cover;
+    background-position: 100% 50%;
+    object-fit: cover;
+    margin-left: -330px;
+    margin-top: 1000px;
+
+}
+#test .tex{
+    /* background-image: url(pexelsphoto973238.jpg); */
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 540px;
+    margin-left: -120px;
+
+}
+.tex h2{
+    color: black;
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    
+}
+.tex h5{
+    color:#999999;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+}
+.tex h6{
+    color:#474045;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+}
+.tex button{
+    background-color: #d4b98e;
+    color: #474040;
+}
+.tex button:hover{
+    background-color: #bf6043;
+}
+.tex h4{
+    color: #bf6043;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 300px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+    /* margin-top: 50px; */
+}
+#footer{
+    background-color: black;
+    width: 480px;
+    height: 100px;
+    margin-top: 1px;
+    margin-left: 1px;
+    text-align: center;
+
+}
+#footer p{
+    margin-left: 100px;
+
+}
+}
+@media only screen  and (min-width:768.5px) and (max-width:991px){
+    #sec{
+        width: 100%;
+        height: 80px;
+        background-color:whitesmoke;
+    }
+    #nav{
+        width: 600px;
+        height: 80px;
+        border: 1px solid white;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #nav img{
+        width: 80px;
+        height: 50px;
+        margin: 0;
+        color: #fff;
+    }
+    #nav img:hover{
+        background-color: aqua;
+        border-radius: 50px;
+        text-decoration: none;
+    
+    
+    }
+    #nav ul{
+        list-style: none;
+        display: flex;
+    }
+    #nav a{
+        color: #000;
+        font-size: 18px;
+        font-weight: 700;
+        padding:5px 10px ;
+        row-gap: 5px;
+    }
+    #nav a:hover{
+        background-color: aqua;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    #sec1{
+        width: 100%;
+        height: 700px;
+       background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(pexelsphoto213621.png);
+       background-position: 50% 50%;
+       background-repeat: no-repeat;
+       object-fit: cover;
+       background-size: cover;
+   
+   }
+   img{
+    width: 120px;
+    height: 90px;
+    margin-left: 300px;
+    
+   }
+   h1{
+    margin-left: 190px;
+    color: white;
+    font-family: initial;
+    margin-left: 320px;
+}
+p{
+    color: white;
+    font-family: Merriweather, serif !important;
+    margin-left: 335px;
+}
+#doc{
+    color: bisque;
+    /* text-align: center; */
+    margin-left: 300px;
+}
+#sec2{
+    height: 1450px;
+    background-color: #dfcbab;
+
+}
+#our h2{
+    width: 445px;
+    height: 150px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 160px;
+}
+#our p{
+    font-size: 16px;
+    color: black;
+    width: 445px;
+    height: 102px;
+    font-size: 16px;
+    margin-left: 160px;
+    margin-top: -100px;
+}
+#our #doc{
+    margin-top: 20px;
+}
+#cake{
+    width: 700px;
+    /* height: 500px; */
+    background-image: url(pexelsphoto291528.jpg);
+    background-position: 50% 50%;
+    height: 550px;
+    object-fit: cover;
+    background-size: cover;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+#text #te{
+    width: 600px;
+    height: 100px;
+    font-size: 16px;
+    margin-top: -60px;
+    font-weight: 200;
+
+
+}
+#text .im{
+    width: 350px;
+    background-image: url(pexelsphoto839220.jpg);
+    background-position: 50% 50%;
+    height: 330px;
+    object-fit: cover;
+    background-size: cover;
+    margin-left: 350px;
+    margin-top: -30px;
+  
+}
+#sec3{
+    background-color: white;
+    width: 320px;
+    height: 520px;
+
+}
+#cho{
+    background-image: url(pexelsphoto982612.jpg);
+    width: 300px;
+    height: 500px;
+    margin-left: -15px;
+    background-size: cover;
+    object-fit: cover;
+}
+#wh #today{
+    width: 300px;
+    height: 467px;
+    font-size: 12px;
+    margin-top: -550px;
+    margin-left: 250px;
+    /* border: 0.5px solid black; */
+}
+#today h3{
+    font-size: 16px;
+    color: black;
+    justify-content: center;
+    margin-left: 70px;
+
+}
+#today h4{
+    font-size:30px;
+    text-align: center;
+    color: black;
+    padding-top: 100px;
+    margin-left: 70px;
+}
+#today h5{
+    font-size: 15px;
+    margin-left: 80px;
+    opacity: 50%;
+    color: black;
+    text-align: center;
+    /* padding-top: 100px; */
+
+
+
+}
+#today h6{
+    margin-left: 180px;
+    color: black;
+}
+#today button{
+    background-color:#d4b98e;
+    margin: 43px 20px 70px 210px;
+}
+#today button:hover{
+    color: black;
+    background-color: #bf6043;
+}
+
+#egg{
+    background-image: url(pexelsphoto566566.jpg);
+    width: 300px;
+    height: 500px;
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    overflow: visible;
+    display: block;
+    margin-top: -500px;
+    margin-left: 625px;
+}
+#sec4{
+    background-image: url(pexelsphoto324028.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 40% 50%;
+    overflow: visible;
+    margin-top: 20px;
+     /* text-align: center; */
+
+
+}
+
+
+#shop h2{
+    color: white;
+    font-size: 48px;
+    width: 328px;
+    height: 105px;
+    margin-top: -150px;
+    margin-left: -50px;
+}
+#shop h6{
+    color:white;
+    width: 500px;
+    /* height: 281.600px; */
+    font-size: 14px;
+    line-height: 1.4;
+    width: 600x;
+    height: 200px;
+    margin-left: -50px;
+    
+
+}
+#shop button{
+    background-color: #d4b98e;
+    color: black;
+    min-width: 60px;
+    min-height: 30px;
+    margin-left: -50px;
+    margin-top: -80px;
+
+    
+}
+#shop button:hover{
+    background-color: #bf6043;
+}
+#sec5{
+    background-color: #d4b98e;
+    height: 600px;
+    margin-top: 30px;
+
+}
+#class{
+    margin: 20px;
+
+}
+#pin{
+    margin: 20px;
+}
+#class h6{
+    width: 320px;
+    height: 170px;
+    font-size: 16px;
+    margin-left: -200px;
+
+}
+#pin #doc{
+    color: black;
+    margin-left: -80px;
+}
+
+#pin h6{
+    width: 328px;
+    height: 202px;
+    font-size: 16px;
+    margin-left: -80px;
+
+}
+#class .cl{
+    background-image: url(pexelsphoto907142.jpeg);
+    height: 380px;
+    width: 200px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 50% 50%;
+    margin-left: -150px;
+}
+#pin .pi{
+    background-image: url(pexelsphoto1028711.jpeg);
+    height: 230px;
+    width: 340px;
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: -80px;
+    
+}
+#sec6{
+    background-color: white;
+    height: 500px;
+}
+#last .ban{
+    background-image: url(chocolatedessertbrowniescake.jpg);
+    width: 300px;
+    height: 500px;
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: -30px;
+    /* display: flex; */
+        
+}
+#pex .px{
+    background-image: url(pexelsphoto973238.jpg);
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    background-position: 100% 50%;
+    object-fit: cover;
+
+}
+#test .tex{
+    /* background-image: url(pexelsphoto973238.jpg); */
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    line-height: 1.1;
+    margin-left: -70px;
+
+}
+.tex h2{
+    color: black;
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    
+}
+.tex h5{
+    color:#999999;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+}
+.tex h6{
+    color:#474045;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+}
+.tex button{
+    background-color: #d4b98e;
+    color: #474040;
+}
+.tex button:hover{
+    background-color: #bf6043;
+}
+.tex h4{
+    color: #bf6043;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 300px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+    /* margin-top: 50px; */
+}
+#footer{
+    background-color: black;
+    width: 1023px;
+    height: 100px;
+    text-align: center;
+    margin-top: -100px;
+    
+
+}
+#footer p{
+    margin-left: 410px;
+
+}
+}
+
+ 
+
+
